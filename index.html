@@ -23,7 +23,7 @@
 <meta property="og:description" content="Un CV professionnel d’un technicien spécialisé en maintenance industrielle.">
 <meta property="og:image" content="https://raw.githubusercontent.com/elhizazi1/CVWeb-AbdelKarim/refs/heads/main/Ph.jpg">
 <meta property="og:type" content="website">
-<meta property="og:url" content="https://elhizazi.me">
+<meta property="og:url" content="https://abdelkarim.elhizazi.me">
 
 <!-- Twitter Card -->
 <meta name="twitter:card" content="summary_large_image">
@@ -31,80 +31,112 @@
 <meta name="twitter:description" content="Technicien spécialisé en maintenance industrielle.">
 <meta name="twitter:image" content="https://raw.githubusercontent.com/elhizazi1/CVWeb-AbdelKarim/refs/heads/main/Ph.jpg">
   <style>
-    body {
-      font-family: Arial, sans-serif;
-      background: #f8f8f8;
-      margin: 0;
-      padding: 0;
-      color: #333;
-    }
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    margin: 0;
+    padding: 0;
+    color: #333;
+  }
 
+  .cv-container {
+    max-width: 900px;
+    margin: 40px auto;
+    background-color: #fff;
+    padding: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 40px;
+  }
+
+  .left-col {
+    border-right: 1px solid #eee;
+  }
+
+  .profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto 20px;
+  }
+
+  h1 {
+    font-size: 24px;
+    margin: 10px 0;
+    text-align: center;
+  }
+
+  h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #0d6efd;
+    border-left: 3px solid #0d6efd;
+    padding-left: 8px;
+  }
+
+  p, li {
+    font-size: 15px;
+    line-height: 1.6;
+  }
+
+  ul {
+    padding-left: 20px;
+  }
+
+  .section {
+    margin-bottom: 30px;
+  }
+
+  .contact-info, .skills, .languages, .certificates, .projects {
+    font-size: 14px;
+  }
+
+  .right-col h3 {
+    font-size: 16px;
+    margin: 10px 0 5px;
+    color: #333;
+  }
+
+  .right-col span {
+    font-weight: bold;
+    display: block;
+  }
+
+  @media (max-width: 768px) {
     .cv-container {
-      max-width: 900px;
-      margin: 40px auto;
-      background: #fff;
-      padding: 40px;
-      box-shadow: 0 0 10px rgba(0,0,0,0.1);
-      display: grid;
-      grid-template-columns: 1fr 2fr;
-      gap: 40px;
-    }
-
-    .left-col {
-      border-right: 1px solid #eee;
+      gap: 20px;
+      padding: 20px;
     }
 
     .profile-img {
-      width: 150px;
-      height: 150px;
-      border-radius: 50%;
-      object-fit: cover;
-      display: block;
-      margin: 0 auto 20px;
+      width: 100px;
+      height: 100px;
     }
 
     h1 {
-      font-size: 24px;
-      margin: 10px 0;
+      font-size: 20px;
     }
 
     h2 {
-      font-size: 18px;
-      margin-bottom: 10px;
-      color: #0d6efd;
-      border-left: 3px solid #0d6efd;
-      padding-left: 8px;
-    }
-
-    p, li {
-      font-size: 15px;
-      line-height: 1.6;
-    }
-
-    ul {
-      padding-left: 20px;
-    }
-
-    .section {
-      margin-bottom: 30px;
-    }
-
-    .contact-info, .skills, .languages, .certificates, .projects {
-      font-size: 14px;
+      font-size: 16px;
     }
 
     .right-col h3 {
-      font-size: 16px;
-      margin: 10px 0 5px;
-      color: #333;
+      font-size: 14px;
     }
 
-    .right-col span {
-      font-weight: bold;
-      display: block;
+    p, li {
+      font-size: 13px;
     }
-    
-  </style>
+
+    .section {
+      margin-bottom: 20px;
+    }
+  }
+</style>
 </head>
 <body>
   <div class="cv-container">
